@@ -17,7 +17,7 @@ public class main {
 		  
 		  if (minutos > conta) {
 			  
-			  conta = conta + (minutos - 100) * 2.0;
+			  conta += (minutos - 100) * 2.0;
 		  }
 		  
 		  System.out.printf("O valor a pagar é: R$ %.2f%n", conta);
